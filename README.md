@@ -95,10 +95,23 @@ CUDA_VISIBLE_DEVICES=0 python3 train.py --model E4D4resnet18 --dataset cifar100
 |------|---|---|
 |R18|90.3%|66%|
 |p4-R18|92.47%|72.04%|
-|p4-E4R18|93.58%|73.41%|
+|p4-E4R18|**93.58%**|**73.41%**|
 |p4m-R18|94.17%|75.05%|
-|p4m-E4R18|95.04%|77.82%|
+|p4m-E4R18|**95.04%**|$**77.82%**|
 
+## Citations
+
+```bibtex
+@inproceedings{
+he2021efficient,
+title={Efficient Equivariant Network},
+author={Lingshen He and Yuxuan Chen and Zhengyang Shen and Yiming Dong and Yisen Wang and Zhouchen Lin},
+booktitle={Advances in Neural Information Processing Systems},
+editor={A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan},
+year={2021},
+url={https://openreview.net/forum?id=4-Py8BiJwHI}
+}
+```
 
 
 
