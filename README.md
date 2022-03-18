@@ -1,6 +1,6 @@
 ﻿## Efficient Equivariant Network
 
-* This repository provides official implementations for [Efficient Equivariant Network](https://openreview.net/forum?id=4-Py8BiJwHI).
+* This repository provides official implementations for [Efficient Equivariant Network](https://proceedings.neurips.cc/paper/2021/file/2a79ea27c279e471f4d180b08d62b00a-Paper.pdf).
 * If you have questions, please send an e-mail to us (lingshenhe@pku.edu.cn or Edmondx.chen@gmail.com) or make an issue.
 
 ### Abstract
@@ -95,9 +95,9 @@ CUDA_VISIBLE_DEVICES=0 python3 train.py --model E4D4resnet18 --dataset cifar100
 |------|---|---|
 |R18|90.3%|66%|
 |p4-R18|92.47%|72.04%|
-|p4-E4R18|$\mathbf{93.58\%}$|$\mathbf{73.41\%}$|
+|p4-E4R18|93.58%|73.41%|
 |p4m-R18|94.17%|75.05%|
-|p4m-E4R18|$\mathbf{95.04\%}$|$\mathbf{77.82\%}$|
+|p4m-E4R18|95.04%|77.82%|
 
 
 
