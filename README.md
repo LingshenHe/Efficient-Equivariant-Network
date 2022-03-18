@@ -97,7 +97,7 @@ CUDA_VISIBLE_DEVICES=0 python3 train.py --model E4D4resnet18 --dataset cifar100
 |p4-R18|92.47%|72.04%|
 |p4-E4R18|**93.58%**|**73.41%**|
 |p4m-R18|94.17%|75.05%|
-|p4m-E4R18|**95.04%**|$**77.82%**|
+|p4m-E4R18|**95.04%**|**77.82%**|
 
 ## Citations
 
