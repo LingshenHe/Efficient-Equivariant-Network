@@ -1,7 +1,7 @@
 ﻿## Efficient Equivariant Network
 
 * This repository provides official implementations for [Efficient Equivariant Network](https://proceedings.neurips.cc/paper/2021/file/2a79ea27c279e471f4d180b08d62b00a-Paper.pdf).
-* If you have questions, please send an e-mail to us (lingshenhe@pku.edu.cn or Edmondx.chen@gmail.com) or make an issue.
+* If you have questions, please send an e-mail to us (lingshenhe@pku.edu.cn) or make an issue.
 
 ### Abstract
 Convolutional neural networks (CNNs) have dominated the field of Computer Vi- sion and achieved great success due to their built-in translation equivariance. Group equivariant CNNs (G-CNNs) that incorporate more equivariance can significantly improve the performance of conventional CNNs. However, G-CNNs are faced with two major challenges: spatial-agnostic problem and expensive computational cost. In this work, we propose a general framework of previous equivariant models, which includes G-CNNs and equivariant self-attention layers as special cases. Un- der this framework, we explicitly decompose the feature aggregation operation into a kernel generator and an encoder, and decouple the spatial and extra geometric dimensions in the computation. Therefore, our filters are essentially dynamic rather than being spatial-agnostic. We further show that our Equivariant model is parameter Efficient and computational Efficient by complexity analysis, and also data Efficient by experiments, so we call our model E4-Net. Extensive experiments verify that our model can significantly improve previous works with smaller model size. Especially, under the setting of training on 1/5 data of CIFAR10, our model improves G-CNNs by 5%+ accuracy, while using only 56% parameters and 68% FLOPs.
